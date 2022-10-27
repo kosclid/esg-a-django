@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant list</title>
+</head>
+<body>
+    <h1>레스토랑 목록</h1>
+
+    {% for rest in rest_list %}
+    <h3><a href = '{{rest.get_absolute_url}}'>{{rest.name}}</a></h3>
+    <h3><a href = '/blog/restaurants/{{rest.pk}}'>{{rest.name}}</a></h3>
+    
+    <h3>{{rest}}</h3>
+    <h3>{{rest.description}}</h3>
+    <h3>{{rest.average_score}}</h3>
+    <br>
+
+    {% endfor %}
+
+    <hr/>
+    <a href = '/blog/restaurants/rest_new/'>새 포스팅 쓰기 </a>
+
+</body>
+</html>

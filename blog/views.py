@@ -1,10 +1,12 @@
 from django.shortcuts import render, redirect
 from blog import forms
-from blog.models import Post
+from blog import rest_forms
+
+from blog.models import Post, Restaurant
 
 from django.views.generic import CreateView
 from blog.forms import PostForm
-
+from blog.rest_forms import RestForm
 
 def index(request):
     # 전체 포스팅을 가져올 준비(가져오기 이전임)
@@ -31,6 +33,9 @@ def single_post_page(request, pk):
 #     success_url="/blog/",
 # )
 
+
+
+
 def post_new(request):
     # print('request.method=', request.method)
     # print('request.POST =', request.POST)
@@ -50,3 +55,39 @@ def post_new(request):
         'form' : form,
     })
 # 장고는 보낼때는 Post 받을 때는 Get 방식으로 받는다.
+
+
+
+
+
+
+def rest_list(request):
+    rest_qs = Restaurant.objects.all().order_by('-pk')
+    return render(
+        request, 
+        "blog/rest_list.html",
+        {'rest_list' : rest_qs,
+        }
+        )
+
+def rest_post(request, pk):
+    rest = Restaurant.objects.get(pk=pk)  # pk=10인 포스트 가져옴->위에서 pk를 받으므로 pk=pk로 쓸 수 있음 앞의pk와 뒤의 pk는 다른의미
+    return render(
+    request, 
+    "blog/rest_post.html",
+    {'rest' : rest,
+    })
+
+
+def rest_new(request):
+    if request.method =="GET":
+        form = RestForm()
+    else:
+        form = RestForm(request.POST)
+        if form.is_valid():  # 유효성 검사 함수 단하나라도 통과 못하면 거짓을 반환
+            post = form.save()  # ModelForm에서 지원
+            return redirect(post)
+
+    return render(request, 'blog/rest_new.html', {
+        'form' : form,
+    })
