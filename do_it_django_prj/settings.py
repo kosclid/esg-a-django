@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "blog",
     "single_pages",
+    
 ]
 
 MIDDLEWARE = [
@@ -123,3 +124,8 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+# 사진 넣기위한 준비
+import os
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
