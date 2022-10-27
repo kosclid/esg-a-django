@@ -76,6 +76,8 @@ def rest_post(request, pk):
     request, 
     "blog/rest_post.html",
     {'rest' : rest,
+ 
+ 
     })
 
 

@@ -118,6 +118,7 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
+# STATIC_URL = "https://cdn.esg-a-edu.com/static/"
 STATIC_URL = "static/"
 
 # Default primary key field type
@@ -128,4 +129,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # 사진 넣기위한 준비
 import os
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+STATICFILES_DIRS = [
+    # os.path.join(BASE_DIR, 'static'),
+    BASE_DIR / 'static',
+]
+

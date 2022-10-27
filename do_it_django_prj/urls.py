@@ -20,9 +20,8 @@ from django.urls import path, include
 from django.http import HttpResponse
 
 
-from blog.views import index
-from django.conf.urls.static import static
-from django.conf import settings
+# from django.conf.urls.static import static
+# from django.conf import settings
 
 
 
@@ -36,5 +35,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),  # path('이 주소가 들어오면', 이 함수에서 처리할 것이다.)
 ]
 
-# 사진 넣기 위한 준비
-urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+# 정적파일 서빙 기능은 장고 개발서버에서 디폴트로 지원 => 실서비스 모드에서는 자동으로 꺼짐.
+# urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
