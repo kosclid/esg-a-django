@@ -11,6 +11,11 @@ class Post(models.Model):
         return f'[{self.pk}] : {self.title}'  
         # self.id도 있다. / pk는 정수여서 걍 같이 못씀 그래서 f string 사용  
         # '저는{d}다.' 이때 d=5 (d는 변수) 기억나지??
+    
+    def get_absolute_url(self):
+        return f'/blog/{self.pk}'
+        # 추후 장고의 URL Reverse 기능 사용하기
+
 
 
 

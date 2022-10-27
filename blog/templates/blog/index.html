@@ -10,7 +10,15 @@
     <h1>django body</h1>
 
     {% for post in post_list %}
-    <h3>{{post.title}}</h3>
+    <h3><a href = '{{post.get_absolute_url}}'>{{post.title}}</a></h3>
+     {% comment %}
+     함수지만 get_absolute_url()라고 쓰진 않는다. 장고 템플릿 엔진에서는 그렇다.
+     장고에서는 
+     dict{'age'} -> .age
+     list[0] -> list.0 같은 형식으로 사용함
+     {% endcomment %}
+    <h3><a href = '/blog/{{post.pk}}'>{{post.title}}</a></h3>
+    
     <h3>{{post}}</h3>
     <h3>{{post.created_at}}</h3>
     <h3>{{post.updated_at}}</h3>
