@@ -1,3 +1,5 @@
+{% load django_bootstrap5 %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{dia.title}}</title>
+    {% bootstrap_css %}
+
 </head>
 <body>
     <h1>django body</h1>
@@ -24,6 +28,8 @@
 
 <hr/>
 &copy; 2022. kosclid
+
+    {% bootstrap_javascript %}
 
 </body>
 </html>
