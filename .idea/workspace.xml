@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e6b60b-763b-4792-b626-776e0755820a" name="Changes" comment="tool bar 추가 및 ngrok추가">
+    <list default="true" id="29e6b60b-763b-4792-b626-776e0755820a" name="Changes" comment="ngrok로 서버 주소 추가 및 form, modelform 주석추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/do_it_django_prj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       <updated>1666837140570</updated>
       <workItem from="1666837142872" duration="450000" />
       <workItem from="1666917446715" duration="2968000" />
-      <workItem from="1666923003332" duration="9693000" />
+      <workItem from="1666923003332" duration="12395000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;파이참 커밋&quot;">
       <created>1666920256980</created>
@@ -133,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666935725187</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ngrok로 서버 주소 추가 및 form, modelform 주석추가">
+      <created>1666936634520</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666936634520</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ngrok로 서버 주소 추가 및 form, modelform 주석추가">
+      <created>1666936653611</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666936653611</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +171,7 @@
     <MESSAGE value="&quot;장고 부트스트랩 5 라이브러리 설치&quot;" />
     <MESSAGE value="부모 템플릿의 브트스트랩 스타일 개선" />
     <MESSAGE value="tool bar 추가 및 ngrok추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="tool bar 추가 및 ngrok추가" />
+    <MESSAGE value="ngrok로 서버 주소 추가 및 form, modelform 주석추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="ngrok로 서버 주소 추가 및 form, modelform 주석추가" />
   </component>
 </project>
