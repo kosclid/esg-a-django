@@ -8,6 +8,9 @@ from django.views.generic import CreateView
 from blog.forms import PostForm
 from blog.rest_forms import RestForm
 
+
+
+
 def index(request):
     # 전체 포스팅을 가져올 준비(가져오기 이전임)
     post_qs = Post.objects.all().order_by('-pk')
