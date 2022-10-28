@@ -49,7 +49,7 @@ def dia_edit(request, pk):
     else:
         form = DiaForm(request.POST, instance=memory)  # 입력된 값은 request.POST에 저장 되어있다.
         if form.is_valid():
-            memory = form.save()  # ModelForm에서 지원
+            memory: Memory = form.save()  # ModelForm에서 지원, : Memory는 타입 지정 보조
             messages.success(request, 'memory를 수정했습니다.')
 
             return redirect(memory)
