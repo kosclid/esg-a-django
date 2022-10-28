@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>restaurant list</title>
-</head>
-<body>
+{% extends 'diary/base.html' %}
+
+{% block content %}
+
     <h1>레스토랑 목록</h1>
 
     {% for rest in rest_list %}
@@ -23,5 +18,4 @@
     <hr/>
     <a href = '/blog/restaurants/rest_new/'>새 포스팅 쓰기 </a>
 
-</body>
-</html>
+{% endblock %}

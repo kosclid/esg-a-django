@@ -63,7 +63,10 @@ ROOT_URLCONF = "do_it_django_prj.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [
+            # app 아래에 말고 다른 위치에 templates가 있으면 여기에 알려줘야함 이제 장고가 찾아줄 수 있음
+            BASE_DIR / 'do_it_django_prj' / 'templates',
+        ],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
