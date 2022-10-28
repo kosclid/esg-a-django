@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e6b60b-763b-4792-b626-776e0755820a" name="Changes" comment="로그인 로그아웃, 회원가입 구현">
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/do_it_django_prj/templates/base.html" afterDir="false" />
+    <list default="true" id="29e6b60b-763b-4792-b626-776e0755820a" name="Changes" comment="전체 통괄 base 만들고 적용후 base에 로그인 여부에 따른 header 사용">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/login_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/login_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/signup_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/signup_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/rest_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/rest_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/rest_new.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/rest_new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/rest_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/rest_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/single_post_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/single_post_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary/templates/diary/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/diary/templates/diary/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/do_it_django_prj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +74,7 @@
       <updated>1666837140570</updated>
       <workItem from="1666837142872" duration="450000" />
       <workItem from="1666917446715" duration="2968000" />
-      <workItem from="1666923003332" duration="15251000" />
+      <workItem from="1666923003332" duration="16240000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;파이참 커밋&quot;">
       <created>1666920256980</created>
@@ -180,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666941434385</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="전체 통괄 base 만들고 적용후 base에 로그인 여부에 따른 header 사용">
+      <created>1666942516622</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666942516622</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +203,7 @@
     <MESSAGE value="주피터 노트북 사용" />
     <MESSAGE value="accounts 생성" />
     <MESSAGE value="로그인 로그아웃, 회원가입 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="로그인 로그아웃, 회원가입 구현" />
+    <MESSAGE value="전체 통괄 base 만들고 적용후 base에 로그인 여부에 따른 header 사용" />
+    <option name="LAST_COMMIT_MESSAGE" value="전체 통괄 base 만들고 적용후 base에 로그인 여부에 따른 header 사용" />
   </component>
 </project>
