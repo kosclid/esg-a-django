@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e6b60b-763b-4792-b626-776e0755820a" name="Changes" comment="ngrok로 서버 주소 추가 및 form, modelform 주석추가">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="29e6b60b-763b-4792-b626-776e0755820a" name="Changes" comment="주피터 노트북 사용">
+      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/do_it_django_prj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/do_it_django_prj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
       <updated>1666837140570</updated>
       <workItem from="1666837142872" duration="450000" />
       <workItem from="1666917446715" duration="2968000" />
-      <workItem from="1666923003332" duration="12395000" />
+      <workItem from="1666923003332" duration="13008000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;파이참 커밋&quot;">
       <created>1666920256980</created>
@@ -146,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666936653611</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="주피터 노트북 사용">
+      <created>1666939324174</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666939324174</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +181,7 @@
     <MESSAGE value="부모 템플릿의 브트스트랩 스타일 개선" />
     <MESSAGE value="tool bar 추가 및 ngrok추가" />
     <MESSAGE value="ngrok로 서버 주소 추가 및 form, modelform 주석추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="ngrok로 서버 주소 추가 및 form, modelform 주석추가" />
+    <MESSAGE value="주피터 노트북 사용" />
+    <option name="LAST_COMMIT_MESSAGE" value="주피터 노트북 사용" />
   </component>
 </project>
