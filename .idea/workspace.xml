@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e6b60b-763b-4792-b626-776e0755820a" name="Changes" comment="부모 템플릿의 브트스트랩 스타일 개선">
-      <change afterPath="$PROJECT_DIR$/ngrok.exe" afterDir="false" />
+    <list default="true" id="29e6b60b-763b-4792-b626-776e0755820a" name="Changes" comment="tool bar 추가 및 ngrok추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/diary/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/do_it_django_prj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/do_it_django_prj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <updated>1666837140570</updated>
       <workItem from="1666837142872" duration="450000" />
       <workItem from="1666917446715" duration="2968000" />
-      <workItem from="1666923003332" duration="8775000" />
+      <workItem from="1666923003332" duration="9693000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;파이참 커밋&quot;">
       <created>1666920256980</created>
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666933175484</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tool bar 추가 및 ngrok추가">
+      <created>1666935725187</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666935725187</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +157,7 @@
     <MESSAGE value="&quot;다이어리 편집, 삭제 기능 추가&quot;" />
     <MESSAGE value="&quot;장고 부트스트랩 5 라이브러리 설치&quot;" />
     <MESSAGE value="부모 템플릿의 브트스트랩 스타일 개선" />
-    <option name="LAST_COMMIT_MESSAGE" value="부모 템플릿의 브트스트랩 스타일 개선" />
+    <MESSAGE value="tool bar 추가 및 ngrok추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="tool bar 추가 및 ngrok추가" />
   </component>
 </project>

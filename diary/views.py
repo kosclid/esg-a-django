@@ -48,6 +48,7 @@ def dia_edit(request, pk):
         form = DiaForm(instance=memory)  # 인자 없이 주면 빈 폼이다.
     else:
         form = DiaForm(request.POST, instance=memory)  # 입력된 값은 request.POST에 저장 되어있다.
+        # modelForm 특성상 instance로 초기값을 불러올수 있고 instance가 정의되어있다면 save가 수정하는 기능으로 작동함 instance가 없으면 저장하는 기능으로 작동
         if form.is_valid():
             memory: Memory = form.save()  # ModelForm에서 지원, : Memory는 타입 지정 보조
             messages.success(request, 'memory를 수정했습니다.')
