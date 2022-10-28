@@ -32,6 +32,7 @@ def root(request):
 urlpatterns = [
     path('', root),
     path('blog/', include('blog.urls')),
+    path('diary/', include('diary.urls')),
     path("admin/", admin.site.urls),  # path('이 주소가 들어오면', 이 함수에서 처리할 것이다.)
 ]
 

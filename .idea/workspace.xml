@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29e6b60b-763b-4792-b626-776e0755820a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="29e6b60b-763b-4792-b626-776e0755820a" name="Changes" comment="&quot;커밋1&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/do_it_django_prj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/do_it_django_prj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/do_it_django_prj/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +71,24 @@
       <option name="presentableId" value="Default" />
       <updated>1666837140570</updated>
       <workItem from="1666837142872" duration="450000" />
-      <workItem from="1666917446715" duration="2773000" />
+      <workItem from="1666917446715" duration="2968000" />
+      <workItem from="1666923003332" duration="229000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;파이참 커밋&quot;">
+      <created>1666920256980</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666920256980</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;커밋1&quot;">
+      <created>1666920401630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666920401630</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +104,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;파이참 커밋&quot;" />
+    <MESSAGE value="&quot;커밋1&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;커밋1&quot;" />
   </component>
 </project>
